@@ -1,0 +1,17 @@
+/*Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Anonymous Pro', monospace;
+}
+
+/*Root var*/
+:root {
+  --co-blue-primary : #004482;
+  --co-gray-opacity-10 :#F0F0F0;
+  --co-lue-sky :#659ad279;
+  --co-blue-primary-opacity-40 :#00438296 ;
+  --co-white-gray :#F1F1F1;
+  --co-lue-sky-no-opacity :#00A8CC;
+  --co-white :white;
+}

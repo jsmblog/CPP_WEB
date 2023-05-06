@@ -1,0 +1,45 @@
+/*google fonts*/
+/* ********************************************** */
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital@1&display=swap');
+/* ********************************************** */
+/*styles of the nav bar*/
+.NavBarMenu {
+    background-color: var(--co-gray-opacity-10);
+    position: fixed;
+    width: 100%;
+    max-width: 100%;
+    padding: .1rem 0;
+}
+.SizeImgBtn {
+    width: 2rem;
+    padding: .1rem;
+}
+.ContNavBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem;
+    text-align: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.Btn button {
+    cursor: pointer;
+    background-color: var(--co-gray-opacity-10);
+    border: none;
+    margin-left: 1rem;
+}
+.ContNavBar a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--co-blue-primary);
+    font-size: 1.2rem;
+}
+/*hover*/
+.Btn button:hover {
+    background-color: var(--co-lue-sky);
+    transition: .5s ease-in-out;
+}
+.ContNavBar a:hover {
+    text-decoration: underline;
+    color: var(--co-blue-primary-opacity-40);
+}

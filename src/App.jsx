@@ -11,8 +11,12 @@ import moon from './Img/moon.png'
 import letterX from './Img/letra-x.png'
 import Sections from './Components/Sections'
 import creator from './Img/creator.png'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
+  AOS.init({
+  });
   //state of the menuNavbar
   const [menuIsOn, setMenuIsOn] = useState(false)
 

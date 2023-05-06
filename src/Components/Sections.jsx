@@ -7,7 +7,7 @@ return (
         </div>
         <article>
             <div className="ContSectionsArt">
-                <div className="ContDataThemes">
+                <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500" className="ContDataThemes">
                     <h3>VARIABLES AND DATA TYPES</h3>
                     <h3>LOGICAL OPERATORS</h3>
                     <h3>CONTROL STRUCTURES</h3>
@@ -15,7 +15,7 @@ return (
                     <h3>ARRAYS</h3>
                     <h3>DATA STRUCTURES</h3>
                 </div>
-                    <div className="ContCreatorNews">
+                    <div data-aos="fade-left"  data-aos-easing="linear"  data-aos-duration="1500" className="ContCreatorNews">
                         <div><h3>{`Let's know her story`}</h3></div>
                         <div className="ImgCreatorAndSms">
                             <div>

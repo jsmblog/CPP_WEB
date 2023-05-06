@@ -100,7 +100,7 @@
 
 @media screen and (min-width:590px) and (max-width: 620px) {
     .MessageLearning {
-        margin-top: 10rem;
+        margin-top: 13rem;
     }
     .MessageLearning h1 {
         font-size: 1.1rem;
@@ -120,7 +120,7 @@
 
 @media screen and (min-width:550px) and (max-width: 590px) {
     .MessageLearning {
-        margin-top: 10rem;
+        margin-top: 13rem;
     }
     .MessageLearning h1 {
         font-size: 1.1rem;
@@ -179,9 +179,67 @@
     }
 }
 
+@media screen and (min-width:420px) and (max-width: 480px) {
+    .MessageLearning {
+        margin-top: 13rem;
+    }
+    .MessageLearning h1 {
+        font-size: 1.1rem;
+    }
+    @keyframes typing {
+        from {
+        width: 0;
+        }
+        to {
+        width: 62vw;
+        }
+    }
+    .positionLogoCpp img {
+        width: 120px;
+    }
+}
+@media screen and (min-width:410px) and (max-width: 420px) {
+    .MessageLearning {
+        margin-top: 20rem;
+    }
+    .MessageLearning h1 {
+        font-size: 1.1rem;
+    }
+    @keyframes typing {
+        from {
+        width: 0;
+        }
+        to {
+        width: 69vw;
+        }
+    }
+    .positionLogoCpp img {
+        width: 120px;
+    }
+}
+@media screen and (min-width:390px) and (max-width: 410px) {
+    .MessageLearning {
+        margin-top: 13rem;
+    }
+    .MessageLearning h1 {
+        font-size: 1.1rem;
+    }
+    @keyframes typing {
+        from {
+        width: 0;
+        }
+        to {
+        width: 69vw;
+        }
+    }
+    .positionLogoCpp img {
+        width: 120px;
+    }
+}
+
 @media screen and (min-width:350px) and (max-width: 390px) {
     .MessageLearning {
-        margin-bottom: 10rem;
+        margin-top: 10rem;
     }
     .MessageLearning h1 {
         font-size: 1rem;
@@ -198,7 +256,6 @@
         width: 120px;
     }
 }
-
 
 @media screen and (min-width:320px) and (max-width: 350px) {
     .MessageLearning {

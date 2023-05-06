@@ -1,5 +1,6 @@
 /*styles of the NavMenuIsOn*/
 .NavMenuIsOn {
+    z-index: 1;
     display: none;
     border: 3px solid var(--co-white-gray);
     border-radius: 50px 0 0px 50px;

@@ -1,5 +1,5 @@
 
-const NavBar = () => {
+const NavBar = ({menuHamburguer , moon}) => {
 return (
 <nav className="NavBarMenu">
     <div className="ContNavBar">
@@ -8,10 +8,10 @@ return (
         </div>
             <div className="Btn">
                 <button>
-                    <img className="SizeImgBtn" src="/public/menuHamburguer.png" alt="Menu-Hamburguer" />
+                    <img className="SizeImgBtn" src={menuHamburguer} alt="Menu-Hamburguer" />
                 </button>
                     <button>
-                    <img className="SizeImgBtn" src="/public/moon.png" alt="Moon" />
+                    <img className="SizeImgBtn" src={moon} alt="Moon" />
                     </button>
             </div>
     </div>

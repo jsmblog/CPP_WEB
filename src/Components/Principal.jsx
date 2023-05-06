@@ -1,5 +1,5 @@
 
-const Principal = () => {
+const Principal = ({cppLogo , fontMarine}) => {
 return (
     <>
     <section >
@@ -9,14 +9,14 @@ return (
                 </div>
                     <div className="positionLogoCpp">
                         <div> 
-                            <img width={150} src="/public/cpp-logo.png" alt="Cpp-logo" />
+                            <img width={150} src={cppLogo} alt="Cpp-logo" />
                         </div>
                     </div>
                 <div className="positionLogoCpp positionLogoCpp_co">
                     <h2 className="bounce-top">↓</h2>
                 </div>
                 <div className="ContLogoMarine">
-                    <img src="/public/font-marine.png" alt="" />
+                    <img src={fontMarine} alt="font-marine" />
                 </div>
             </div>
                 

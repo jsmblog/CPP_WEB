@@ -13,6 +13,7 @@ import Sections from './Components/Sections'
 import creator from './Img/creator.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import DataCpp from './Components/DataCpp'
 
 function App() {
   AOS.init({
@@ -37,6 +38,7 @@ function App() {
       <Principal cppLogo={cppLogo} fontMarine={fontMarine} />
       <MenuIsOn  menuOn={menuOn} />
       <Sections creator={creator} />
+      <DataCpp/>
     </>
   )
 }

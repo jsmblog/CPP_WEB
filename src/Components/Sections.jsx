@@ -25,7 +25,7 @@ return (
                             </div>
                             <div>
                                 <p>
-                                C++ is a programming language created <br /> by Bjarne Stroustrup in 1983, <br /> based on C and with object-oriented <br /> programming. It is used in software <br /> applications, operating systems, <br /> games, and embedded devices due to <br /> its performance and flexibility.
+                                C++ is a programming language created <br /> by <a className="LinkBioBjarne" href="https://u-tad.com/bjarne-stroustrup-C-software-informatica" target="_blank" rel="noopener noreferrer">Bjarne Stroustrup</a> in 1983, <br /> based on C and with object-oriented <br /> programming. It is used in software <br /> applications, operating systems, <br /> games, and embedded devices due to <br /> its performance and flexibility.
                                 </p>
                             </div>
                         </div>

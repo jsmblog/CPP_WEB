@@ -63,3 +63,11 @@
     position: relative;
     bottom: 1rem;
 }
+.LinkBioBjarne {
+    color: var(--co-blue-primary);
+}
+/*hover LinkBioBjarne*/
+.LinkBioBjarne:hover {
+color: var(--co-white-FBFCFC);
+transition: 1s ease-in-out;
+}

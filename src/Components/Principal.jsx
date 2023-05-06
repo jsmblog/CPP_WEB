@@ -13,7 +13,7 @@ return (
                         </div>
                     </div>
                 <div className="positionLogoCpp positionLogoCpp_co">
-                    <h2 className="bounce-top">↓</h2>
+                    <h2 className="text-pop-up-bottom">↓</h2>
                 </div>
                 <div className="ContLogoMarine">
                     <img src={fontMarine} alt="font-marine" />

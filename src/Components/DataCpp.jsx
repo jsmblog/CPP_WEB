@@ -6,7 +6,7 @@ import SixthBtn from "../Btn/SixthBtn"
 import ThirthBtn from "../Btn/ThirthBtn"
 import Footer from "./Footer"
 
-const DataCpp = () => {
+const DataCpp = ({letterX}) => {
 return (
 <>
     <div  className="SmsGo">
@@ -14,7 +14,7 @@ return (
     </div>
     <div className="ContBtnNav">
         <div>
-            <FirstBtn/>
+            <FirstBtn letterX={letterX} />
         </div>
         <div>
             <SecondBtn/>

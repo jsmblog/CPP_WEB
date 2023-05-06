@@ -38,7 +38,7 @@ function App() {
       <Principal cppLogo={cppLogo} fontMarine={fontMarine} />
       <MenuIsOn  menuOn={menuOn} />
       <Sections creator={creator} />
-      <DataCpp/>
+      <DataCpp letterX={letterX} />
     </>
   )
 }

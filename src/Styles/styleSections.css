@@ -1,0 +1,65 @@
+/*styles of sections*/
+.SmsSections {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+    background-color: var(--co-gray-opacity-10);
+}
+.SmsSections h2 {
+    color: var(--co-blue-primary);
+    border-bottom: 3px solid var(--co-blue-primary);
+    border-top: 3px solid var(--co-blue-primary);
+    padding: 2rem ;
+}
+.ContSectionsArt {
+    gap: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom:  1.5rem;
+    align-items: center;
+    background-color: var(--co-gray-opacity-10);
+}
+.ContDataThemes {
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+    padding: .5rem;
+    background-color: var(--co-white-FBFCFC);
+    color: var(--co-blue-primary);
+}
+.ContCreatorNews {
+    width: 75%;
+    border-radius:10px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly ;
+    align-items: center;
+    padding: .5rem;
+    gap: 1.5rem;
+    background-color: var(--co-blue-white);
+}
+.ContCreatorNews p {
+    border-left: 3px solid var(--co-gray-opacity-10);
+    padding-left: 2rem;
+    
+}
+.ContCreatorNews h3 {
+    color: var(--co-blue-primary);
+}
+.ImgCreatorAndSms {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: .5rem;
+    flex-wrap: wrap;
+    color: var(--co-gray-opacity-10);
+}
+.ContImgFounder {
+    padding: 0 .5rem;
+    background-color: var(--co-gray-opacity-10);
+}
+.ContImgFounder img {
+    position: relative;
+    bottom: 1rem;
+}

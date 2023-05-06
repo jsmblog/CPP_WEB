@@ -9,16 +9,22 @@ import fontMarine from './Img/font-marine.png'
 import menuHamburguer from './Img/menuHamburguer.png'
 import moon from './Img/moon.png'
 import letterX from './Img/letra-x.png'
+import Sections from './Components/Sections'
+import creator from './Img/creator.png'
 
 function App() {
+  //state of the menuNavbar
   const [menuIsOn, setMenuIsOn] = useState(false)
 
+  //change menuIsOn, stateMenuIsOn
   const handleClickMenu = () => {
   setMenuIsOn(!menuIsOn)
   console.log(menuIsOn)
   }
-
+  //BtnMenu Validation 
   const menuOn = (menuIsOn) ? "visibilityMenu slide-in-bottom" : ""
+
+  //validation for to change icons
   const letterOn = (menuIsOn) ?  `${letterX}` : `${menuHamburguer}`
 
   return (
@@ -26,6 +32,7 @@ function App() {
       <NavBar letterOn={letterOn} letterX={letterX} setMenuIsOn={setMenuIsOn} handleClickMenu={handleClickMenu} moon={moon} menuHamburguer={menuHamburguer} />
       <Principal cppLogo={cppLogo} fontMarine={fontMarine} />
       <MenuIsOn  menuOn={menuOn} />
+      <Sections creator={creator} />
     </>
   )
 }

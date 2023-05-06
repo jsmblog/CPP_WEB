@@ -4,6 +4,7 @@
 /* ********************************************** */
 /*styles of the nav bar*/
 .NavBarMenu {
+    z-index: 1;
     background-color: var(--co-gray-opacity-10);
     position: fixed;
     width: 100%;

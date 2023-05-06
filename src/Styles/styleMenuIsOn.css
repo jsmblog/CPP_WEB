@@ -5,7 +5,6 @@
     border-radius: 50px 0 0px 50px;
     background-color:var(--co-blue-primary);
     padding: 0 1.5rem;
-    position: fixed;
     width: 55%;
     height: 80%;
 }
@@ -13,6 +12,9 @@
     position: absolute;
     top: 5rem;
     right: 0;
+}
+.NavMenuIsOn_position {
+    position: fixed;
 }
 .NavMenuIsOn ul li a {
     font-size: 1rem;

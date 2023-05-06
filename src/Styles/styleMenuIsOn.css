@@ -7,11 +7,11 @@
     background-color:var(--co-blue-primary);
     padding: 0 1.5rem;
     width: 55%;
-    height: 80%;
+    height: 87%;
 }
 .NavMenuIsOn_position {
     position: absolute;
-    top: 5rem;
+    top: 5.05rem;
     right: 0;
 }
 .NavMenuIsOn_position {

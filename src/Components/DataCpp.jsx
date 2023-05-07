@@ -1,6 +1,6 @@
 import FirstBtn from "../Btn/FirstBtn"
 import FiveBtn from "../Btn/FiveBtn"
-import FouthBtn from "../Btn/FouthBtn"
+import FourthBtn from "../Btn/FouthBtn"
 import SecondBtn from "../Btn/SecondBtn"
 import SixthBtn from "../Btn/SixthBtn"
 import ThirthBtn from "../Btn/ThirthBtn"
@@ -23,7 +23,7 @@ return (
             <ThirthBtn/>
         </div>
         <div>
-            <FouthBtn/>
+            <FourthBtn/>
         </div>
         <div>
             <FiveBtn/>

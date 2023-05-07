@@ -1,0 +1,65 @@
+/*Root themes*/
+:root {
+    --co-dm-blue :#00337C;
+}
+
+.themesDarkMode .NavBarMenu , .themesDarkMode .Btn button {
+    background-color: var(--co-dm-blue);
+    transition: 2.5s ease;
+}
+
+.themesDarkMode .ContNavBar a {
+    color: var(--co-white-gray);
+    transition: 2.5s ease;
+}
+.themesDarkMode .ContPrincipal {
+    background-color: var(--co-dm-blue);
+    transition: 2.5s ease;
+}
+.themesDarkMode .MessageLearning h1 {
+    background-color: var(--co-blue-white);
+    transition: 2.5s ease;
+}
+.themesDarkMode .SmsSections  {
+    background-color: var(--co-dm-blue);
+    transition: 2.5s ease;
+}
+.themesDarkMode  .SmsSections h2 {
+    color: var(--co-white-gray);
+    transition: 2.5s ease;
+    border-bottom: 3px solid var(--co-white-gray);
+    border-top: 3px solid var(--co-white-gray);
+}
+.themesDarkMode .ContSectionsArt {
+    background-color: var(--co-dm-blue);
+    transition: 2.5s ease;
+}
+.themesDarkMode .ContDataThemes {
+    background-color: var(--co-blue-white);
+    transition: 2.5s ease;
+    color: var(--co-white-gray);
+}
+.themesDarkMode .ContCreatorNews h3 {
+    transition: 2.5s ease;
+    color: var(--co-dm-blue);
+}
+.themesDarkMode .ContCreatorNews p {
+    transition: 2.5s ease;
+    color: var(--co-white-gray);
+}
+.themesDarkMode .ContImgFounder {
+    transition: 2.5s ease;
+    background-color: var(--co-dm-blue)
+}
+.themesDarkMode .SmsGo {
+    transition: 2.5s ease;
+    background-color: var(--co-dm-blue)
+}
+.themesDarkMode .SmsGo h3 {
+    transition: 2.5s ease;
+    background-color: var(--co-blue-white)
+}
+.themesDarkMode .ContBtnNav {
+    transition: 2.5s ease;
+    background-color: var(--co-dm-blue)
+}

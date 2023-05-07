@@ -1,5 +1,5 @@
 
-const Principal = ({cppLogo , fontMarine}) => {
+const Principal = ({cppLogo , fontMarine , changeImgCpp}) => {
 return (
     <>
     <section >
@@ -9,7 +9,7 @@ return (
                 </div>
                     <div className="positionLogoCpp">
                         <div> 
-                            <img width={150} src={cppLogo} alt="Cpp-logo" />
+                            <img width={150} src={changeImgCpp} alt="Cpp-logo" />
                         </div>
                     </div>
                 <div className="positionLogoCpp positionLogoCpp_co">

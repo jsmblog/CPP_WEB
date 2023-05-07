@@ -1,5 +1,6 @@
 
-const NavBar = ({ moon , handleClickMenu , letterOn }) => {
+const NavBar = ({ moon , handleClickMenu , letterOn , sun ,changeDarkMode ,sunImg }) => {
+
 return (
 <nav className="NavBarMenu">
     <div className="ContNavBar">
@@ -10,8 +11,8 @@ return (
                 <button onClick={handleClickMenu}>
                     <img className="SizeImgBtn" src={letterOn} alt="Menu-Hamburguer" />
                 </button>
-                    <button>
-                    <img className="SizeImgBtn" src={moon} alt="Moon" />
+                    <button onClick={changeDarkMode}>
+                    <img className="SizeImgBtn" src={sunImg} alt="Moon" />
                     </button>
             </div>
     </div>

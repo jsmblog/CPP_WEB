@@ -43,10 +43,26 @@ function App() {
   const changeImgCpp = (darkMode) ? `${cppTwo}` : `${cppLogo}`
   //
 
-  //darkModeInLocalStore 
+  const [isLoading, setIsLoading] = useState(true);
+
   useEffect(() => {
-    localStorage.setItem('darkMode', darkMode); // Save current theme to localStorage
-  }, [darkMode]);
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 5000); // 3000 milisens = 3 seconds
+
+    return () => clearTimeout(timer); // Clears the timer if the component is unmounted before it finishes
+  }, []); // The second argument to useEffect is an empty array to ensure that it is only executed once when mounting the component.
+
+  if (isLoading) {
+    return (
+      <div className="loader">
+        <div className="lds-ripple "><div></div><div></div></div>
+        {/* loading animation */}
+        <h2 className='charging tracking-out-expand'>CHARGING...</h2>
+      </div>
+    );
+  }
+  
   return (
     <div className={`${darkModeIsOn} App`}>
       <NavBar sunImg={sunImg} changeDarkMode={changeDarkMode} sun={sun} letterOn={letterOn} letterX={letterX} setMenuIsOn={setMenuIsOn} handleClickMenu={handleClickMenu} moon={moon} menuHamburguer={menuHamburguer} />

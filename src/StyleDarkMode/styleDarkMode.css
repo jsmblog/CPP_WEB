@@ -15,6 +15,7 @@
 .themesDarkMode .ContPrincipal {
     background-color: var(--co-dm-blue);
     transition: 2.5s ease;
+    border: 3px solid var(--co-dm-blue);
 }
 .themesDarkMode .MessageLearning h1 {
     background-color: var(--co-blue-white);

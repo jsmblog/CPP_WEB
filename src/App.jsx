@@ -45,11 +45,8 @@ function App() {
 
   //darkModeInLocalStore 
   useEffect(() => {
-    const savedTheme = localStorage.getItem('themesDarkMode'); // Get theme saved in local storage
-    if (savedTheme) {
-      setDarkMode(savedTheme);
-    }
-  }, []);
+    localStorage.setItem('darkMode', darkMode); // Save current theme to localStorage
+  }, [darkMode]);
   return (
     <div className={`${darkModeIsOn} App`}>
       <NavBar sunImg={sunImg} changeDarkMode={changeDarkMode} sun={sun} letterOn={letterOn} letterX={letterX} setMenuIsOn={setMenuIsOn} handleClickMenu={handleClickMenu} moon={moon} menuHamburguer={menuHamburguer} />

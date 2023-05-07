@@ -33,6 +33,8 @@
   background-color: var(--co-white-gray);
   color: var(--co-red-secondary);
   font-weight: bold;
+  width: 20rem;
+  height: 4rem;
 }
 .CloseBtn {
   cursor: pointer;

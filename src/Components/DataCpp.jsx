@@ -6,7 +6,7 @@ import SixthBtn from "../Btn/SixthBtn"
 import ThirthBtn from "../Btn/ThirthBtn"
 import Footer from "./Footer"
 
-const DataCpp = ({letterX ,OneExp , twoExp ,three,four ,five}) => {
+const DataCpp = ({letterX ,OneExp , twoExp ,three,four ,five , six , seven , eigth}) => {
 return (
 <>
     <div  className="SmsGo">
@@ -17,7 +17,7 @@ return (
             <FirstBtn four={four} five={five} three={three} twoExp={twoExp} OneExp={OneExp} letterX={letterX} />
         </div>
         <div>
-            <SecondBtn/>
+            <SecondBtn six={six} seven={seven} eigth={eigth} letterX={letterX}/>
         </div>
         <div>
             <ThirthBtn/>

@@ -15,6 +15,9 @@ import letterX from './Img/letra-x.png'
 import three from './Img/3.png'
 import four from './Img/4.png'
 import five from './Img/5.png'
+import six from './Img/6.png'
+import seven from './Img/7.png'
+import eigth from './Img/8.png'
 //components imports
 import MenuIsOn from './Components/MenuIsOn'
 import NavBar from './Components/NavBar'
@@ -77,7 +80,7 @@ function App() {
       <Principal changeImgCpp={changeImgCpp} cppLogo={cppLogo} fontMarine={fontMarine} />
       <MenuIsOn  menuOn={menuOn} />
       <Sections creator={creator} />
-      <DataCpp five={five} four={four} three={three} twoExp={twoExp} OneExp={OneExp} letterX={letterX} />
+      <DataCpp six={six} seven={seven} eigth={eigth} five={five} four={four} three={three} twoExp={twoExp} OneExp={OneExp} letterX={letterX} />
     </div>
   )
 }

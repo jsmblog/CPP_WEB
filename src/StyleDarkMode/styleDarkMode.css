@@ -64,3 +64,8 @@
     transition: 2.5s ease;
     background-color: var(--co-dm-blue)
 }
+.themesDarkMode .BtnVarAndDT button {
+    transition: 2.5s ease;
+    color: var(--co-white-gray);
+    background-color: var(--co-dm-blue)
+}

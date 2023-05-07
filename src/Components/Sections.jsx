@@ -21,7 +21,7 @@ return (
                         <div><h3>{`Let's know her story`}</h3></div>
                         <div className="ImgCreatorAndSms">
                             <div>
-                                <div className="ContImgFounder"><img width={80} src={creator} alt="" /></div>
+                                <div className="ContImgFounder"><img width={80} src={creator} alt="img-bjarne" /></div>
                             </div>
                             <div>
                                 <p>

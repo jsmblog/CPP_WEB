@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 
-const FirstBtn = ({letterX}) => {
+const FirstBtn = ({letterX , OneExp , twoExp , three , four ,five}) => {
     
   const [btnOne, setBtnOne] = useState(false)
 
@@ -9,7 +9,7 @@ const FirstBtn = ({letterX}) => {
     setBtnOne(!btnOne)
     console.log(btnOne)
   }
-  const btnOneVisibility = (btnOne) ? "btnOneV" : ""
+  const btnOneVisibility = (btnOne) ? "btnOneV scale-in-hor-center" : ""
   
   
   return (
@@ -21,10 +21,31 @@ const FirstBtn = ({letterX}) => {
     </div>
       <div className={`${btnOneVisibility} container container_position`}>
         <div>
-          <img onClick={handleClickBtnOne} className="CloseBtn" width={35} src={letterX} alt="" />
+          <img onClick={handleClickBtnOne} className="CloseBtn" width={35} src={letterX} alt="close-button" />
         </div>
       <div className="content">
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore odit laborum eius porro atque minus provident perferendis praesentium ea cum ut fugiat ad, culpa dolor non, voluptatem iusto, repellat dicta tempore aliquam. Adipisci ex iusto qui, laudantium maiores quidem consectetur illum earum labore impedit illo magni modi eius sit. Veniam officia accusamus dolor. Consequuntur in a est nihil error eligendi officia atque veniam quasi unde nostrum voluptates ab rem asperiores illo doloribus eum corporis, veritatis animi aut dicta! Aperiam doloremque consequatur unde deserunt atque et rem nostrum doloribus quidem, quibusdam, velit molestiae nihil sequi hic reiciendis nam. Odit nemo sunt sit tempore ab beatae ipsam nesciunt. Eveniet, fugiat? Reprehenderit numquam labore harum dolore molestias ea adipisci corrupti in deleniti blanditiis, facere dolorem tenetur nisi perferendis eos amet a autem ipsam reiciendis! Fugit suscipit nihil labore minus, in deserunt, iusto, quasi voluptas quidem vero soluta hic. Hic reprehenderit tenetur unde ex non velit nulla fuga libero eveniet suscipit veniam quidem corrupti quibusdam maiores enim explicabo pariatur ut, sint neque eligendi voluptatem ab beatae doloribus! Ea, quibusdam, ducimus est ut maxime sequi commodi nam ratione iusto error tempore. Recusandae possimus iusto ipsam, commodi cum tempora accusamus qui dolorem assumenda rerum nemo quia sed amet, aperiam natus iure corrupti incidunt nisi neque. Illum iste eaque, eligendi tempora repellat saepe aperiam. Velit neque totam id rerum sequi ipsum aut blanditiis labore placeat nihil sint expedita nam praesentium, reprehenderit similique aperiam quisquam deleniti. Vel ipsum repudiandae voluptatem, laboriosam adipisci obcaecati fuga quo incidunt quisquam, tempora quae totam! Magni quaerat facilis voluptatibus animi. Enim autem aliquid temporibus mollitia officia provident ea! Voluptatem ratione laborum totam cupiditate saepe non exercitationem. Ducimus autem molestias placeat cumque eaque consequuntur minima ea ipsum sed dolores molestiae qui id veritatis, aut nobis temporibus voluptatem doloribus nihil maxime explicabo praesentium nostrum? Nulla blanditiis est sint quibusdam adipisci autem quod delectus repellat? Fugit eligendi voluptatum magni eius mollitia in, voluptas impedit fugiat animi quo, dicta aut repudiandae laudantium et? Iure quod ducimus eum pariatur modi quo excepturi doloremque omnis saepe rerum, ratione neque facilis impedit? Nostrum, deserunt quod sequi quo dolor minima pariatur adipisci laudantium iusto. Aliquam, vitae odit accusamus omnis illo eaque non, optio nulla, animi earum vero? Ab officia animi ducimus maxime iure, assumenda reprehenderit eligendi architecto nam quas atque repudiandae, deleniti odit sed corporis maiores distinctio, iste non expedita. Error aperiam hic quod provident quos minus, distinctio sunt cupiditate atque reprehenderit tempore esse laboriosam nihil nemo libero corrupti iste. Doloribus nisi optio, quae odio nihil beatae culpa accusamus, possimus quam distinctio itaque harum ipsa, eligendi omnis velit quas! Totam, hic! Ipsum dignissimos asperiores sapiente, quisquam ab ea iusto magni consequatur perferendis facilis hic error. Nostrum obcaecati nobis nemo magni maiores sequi quod at dolorem, voluptatem impedit laboriosam perspiciatis dolor voluptates consectetur dolorum aut aliquam, quo temporibus quis doloremque eaque? Quasi vitae neque nostrum totam unde. Officiis impedit voluptate sint praesentium sunt distinctio voluptatum, nostrum ex maiores quos consequatur velit odio quidem, unde aspernatur tempore suscipit! Error aspernatur asperiores aut quas!</p>
+        <div className="contFirstBtnVarAndDt">
+            <p>
+            In C++, a variable is a memory space reserved for storing data. It allows you to give meaningful names to the data and manipulate it in the program. Each variable has a unique name and an associated data type.
+            <br />
+            <br />
+            Some data types in C++ are:
+            <br />
+            <br />
+            </p>
+            <ol className="olImg">
+              <li><span>Integers (int): Represent whole numbers without decimals. Example: 1, 10, -5.</span></li>
+              <img src={OneExp} alt="example-one" />
+              <li><span>Floating point (float, double): Represents decimal numbers. Example: 3.14, -0.5, 2.0.</span></li>
+              <img src={twoExp} alt="example-two" />
+              <li><span>Characters (char): Represent a single character. Example:{`'A', 'b', '7'.`}</span></li>
+              <img src={three} alt="example-three" />
+              <li><span>Character strings (string): Represent a sequence of characters. Example: {`"Hello", "World".`}</span></li>
+              <img src={four} alt="example-four" />
+              <li><span>Booleans (bool): Represent true or false values. Example: true, false.</span></li>
+              <img src={five} alt="example-five" />
+            </ol>
+        </div>
       </div>
     </div>
     </>

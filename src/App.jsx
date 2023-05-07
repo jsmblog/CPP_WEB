@@ -1,29 +1,38 @@
-
+//useEffect
 import { useEffect, useState } from 'react'
 import './App.css'
-import MenuIsOn from './Components/MenuIsOn'
-import NavBar from './Components/NavBar'
-import Principal from './Components/Principal'
+//Img
+import OneExp from './Img/1.png'
+import twoExp from './Img/2.png'
+import sun from './Img/sun.png'
+import cppTwo from './Img/cppTwo.png'
+import creator from './Img/creator.png'
 import cppLogo from './Img/cpp-logo.png'
 import fontMarine from './Img/font-marine.png'
 import menuHamburguer from './Img/menuHamburguer.png'
 import moon from './Img/moon.png'
 import letterX from './Img/letra-x.png'
+import three from './Img/3.png'
+import four from './Img/4.png'
+import five from './img/5.png'
+//components imports
+import MenuIsOn from './Components/MenuIsOn'
+import NavBar from './Components/NavBar'
+import Principal from './Components/Principal'
 import Sections from './Components/Sections'
-import creator from './Img/creator.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import DataCpp from './Components/DataCpp'
-import sun from './Img/sun.png'
-import cppTwo from './Img/cppTwo.png'
 
 function App() {
+  //function active animation Aos
   AOS.init({
   });
   //state of the menuNavbar
   const [menuIsOn, setMenuIsOn] = useState(false)
   // state for darkMode
   const [darkMode, setDarkMode] = useState(false)
+  const [isLoading, setIsLoading] = useState(true);
   //change menuIsOn, stateMenuIsOn
   const handleClickMenu = () => {
   setMenuIsOn(!menuIsOn)
@@ -43,12 +52,11 @@ function App() {
   const changeImgCpp = (darkMode) ? `${cppTwo}` : `${cppLogo}`
   //
 
-  const [isLoading, setIsLoading] = useState(true);
-
+  // effect loading 
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 5000); // 3000 milisens = 3 seconds
+    }, 4000); // 4000 milliseconds = 4 seconds
 
     return () => clearTimeout(timer); // Clears the timer if the component is unmounted before it finishes
   }, []); // The second argument to useEffect is an empty array to ensure that it is only executed once when mounting the component.
@@ -69,7 +77,7 @@ function App() {
       <Principal changeImgCpp={changeImgCpp} cppLogo={cppLogo} fontMarine={fontMarine} />
       <MenuIsOn  menuOn={menuOn} />
       <Sections creator={creator} />
-      <DataCpp letterX={letterX} />
+      <DataCpp five={five} four={four} three={three} twoExp={twoExp} OneExp={OneExp} letterX={letterX} />
     </div>
   )
 }

@@ -1,5 +1,5 @@
 
-const Principal = ({cppLogo , fontMarine , changeImgCpp}) => {
+const Principal = ({ fontMarine , changeImgCpp}) => {
 return (
     <>
     <section >

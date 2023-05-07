@@ -26,10 +26,10 @@ return (
             <FourthBtn letterX={letterX} fourteen={fourteen} fithteen={fithteen}/>
         </div>
         <div>
-            <FiveBtn/>
+            <FiveBtn letterX={letterX}/>
         </div>
         <div>
-            <SixthBtn/>
+            <SixthBtn letterX={letterX}/>
         </div>
     </div>
     <footer>

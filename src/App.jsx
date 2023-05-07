@@ -18,6 +18,11 @@ import five from './Img/5.png'
 import six from './Img/6.png'
 import seven from './Img/7.png'
 import eigth from './Img/8.png'
+import nine from './Img/9.png'
+import ten from './Img/10.png'
+import eleven from './Img/11.png'
+import twelve from './Img/12.png'
+import thirteen from './Img/13.png'
 //components imports
 import MenuIsOn from './Components/MenuIsOn'
 import NavBar from './Components/NavBar'
@@ -80,7 +85,7 @@ function App() {
       <Principal changeImgCpp={changeImgCpp} cppLogo={cppLogo} fontMarine={fontMarine} />
       <MenuIsOn  menuOn={menuOn} />
       <Sections creator={creator} />
-      <DataCpp six={six} seven={seven} eigth={eigth} five={five} four={four} three={three} twoExp={twoExp} OneExp={OneExp} letterX={letterX} />
+      <DataCpp thirteen={thirteen} twelve={twelve} eleven={eleven} ten={ten} nine={nine} six={six} seven={seven} eigth={eigth} five={five} four={four} three={three} twoExp={twoExp} OneExp={OneExp} letterX={letterX} />
     </div>
   )
 }

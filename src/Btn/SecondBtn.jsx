@@ -10,7 +10,7 @@ const SecondBtn = ({letterX , six , seven , eigth}) => {
   const btnOneVisibility = (btnOne) ? "btnOneV puff-in-center" : ""
   return (
     <>
-     <div id="" className="BtnVarAndDT blink-1 BtnVarAndDT_change-co">
+     <div id="" className="BtnVarAndDT BtnVarAndDT_change-co">
       <button onClick={handleClickBtnOne}>
         LOGICAL OPERATORS
       </button>
@@ -34,21 +34,19 @@ const SecondBtn = ({letterX , six , seven , eigth}) => {
               <img src={six} alt="example-one" />
               <li><span>OR operator (||): This operator returns true if at least one of the operands is true, and false if both operands are false. For example:</span></li>
               <img src={seven} alt="example-two" />
-              <li><span>Operador NOT (!): Este operador invierte el valor de verdad de un operando. Si el operando es verdadero, el resultado es falso, y si el operando es falso, el resultado es verdadero. For example:</span></li>
+              <li><span>NOT operator (!): This operator inverts the truth value of an operand. If the operand is true, the result is false, and if the operand is false, the result is true. For example:</span></li>
               <img src={eigth} alt="example-three" />
             </ol>
-            <p>Además de los operadores lógicos, también existen los operadores matemáticos básicos, que se utilizan para realizar cálculos numéricos:
+            <p>In addition to the logical operators, there are also the basic mathematical operators, which are used to perform numerical calculations:
 
-Operador de suma (+): Se utiliza para sumar dos valores. Por ejemplo: int result = 3 + 5; // El resultado es 8
-Operador de resta (-): Se utiliza para restar un valor de otro. Por ejemplo: int result = 8 - 3; // El resultado es 5
-Operador de multiplicación (*): Se utiliza para multiplicar dos valores. Por ejemplo: int result = 2 * 4; // El resultado es 8
-Operador de división (/): Se utiliza para dividir un valor entre otro. Por ejemplo: int result = 10 / 2; // El resultado es 5
-Operador de módulo (%): Devuelve el resto de la división entre dos valores. Por ejemplo: int result = 10 % 3; // El resultado es 1
-Estos operadores matemáticos se utilizan para realizar cálculos numéricos en programación.
+Addition operator (+): It is used to add two values. For example: int result = 3 + 5; // The result is 8
+Subtraction operator (-): It is used to subtract one value from another. For example: int result = 8 - 3; // The result is 5
+Multiplication operator (*): It is used to multiply two values. For example: int result = 2 * 4; // The result is 8
+Division operator (/): Used to divide one value by another. For example: int result = 10 / 2; // The result is 5
+Modulo operator (%): Returns the remainder of the division between two values. For example: int result = 10% 3; // The result is 1
+These mathematical operators are used to perform numerical calculations in programming.
 
-En resumen, los operadores lógicos son herramientas utilizadas para combinar y evaluar condiciones booleanas, mientras que los operadores matemáticos se utilizan para realizar cálculos numéricos. Comprender y utilizar estos operadores es fundamental para tomar decisiones y realizar cálculos en la programación.
-
-</p>
+In short, logical operators are tools used to combine and evaluate Boolean conditions, while mathematical operators are used to perform numerical calculations. Understanding and using these operators is essential for making decisions and performing calculations in programming.</p>
         </div>
       </div>
     </div>

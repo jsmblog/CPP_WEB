@@ -24,7 +24,15 @@
     height: 100vh;
   }
 .BtnVarAndDT button {
+  box-shadow: 0 0 20px 1px var(--co-red-primary) ;
+  border-radius: 7px;
   cursor: pointer;
+  border: 3px solid var(--co-red-secondary);
+  padding: 1rem 5rem;
+  margin: 0 1rem;
+  background-color: var(--co-white-gray);
+  color: var(--co-red-secondary);
+  font-weight: bold;
 }
 .CloseBtn {
   cursor: pointer;
@@ -72,3 +80,30 @@
     opacity: 1;
   }
 }
+.blink-1 {
+	-webkit-animation: blink-1 10s infinite both;
+	        animation: blink-1 10s infinite both;
+}
+@-webkit-keyframes blink-1 {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+@keyframes blink-1 {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+

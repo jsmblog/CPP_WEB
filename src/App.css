@@ -20,5 +20,7 @@
   --co-blue-white :#659AD2;
   --co-red :#950101;
   --co-gray-light : rgba(128, 128, 128, 0.349);
-  --co-black :rgba(0, 0, 0, 0.89);
+  --co-black :#0F3460;
+  --co-red-primary:#FD5D5D ;
+  --co-red-secondary : #950101;
 }

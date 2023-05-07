@@ -14,7 +14,7 @@ const FirstBtn = ({letterX , OneExp , twoExp , three , four ,five}) => {
   
   return (
     <>
-    <div className="BtnVarAndDT">
+    <div className="BtnVarAndDT blink-1">
       <button onClick={handleClickBtnOne}>
         VARIABLES AND DATA TYPES
       </button>

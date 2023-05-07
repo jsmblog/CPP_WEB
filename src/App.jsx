@@ -56,7 +56,7 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 4000); // 4000 milliseconds = 4 seconds
+    }, 3000); // 3000 milliseconds = 3 seconds
 
     return () => clearTimeout(timer); // Clears the timer if the component is unmounted before it finishes
   }, []); // The second argument to useEffect is an empty array to ensure that it is only executed once when mounting the component.

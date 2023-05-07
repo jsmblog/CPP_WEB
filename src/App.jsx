@@ -1,5 +1,5 @@
 
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
 import MenuIsOn from './Components/MenuIsOn'
 import NavBar from './Components/NavBar'
@@ -42,6 +42,14 @@ function App() {
   const sunImg = (darkMode) ? `${sun}` : `${moon}`
   const changeImgCpp = (darkMode) ? `${cppTwo}` : `${cppLogo}`
   //
+
+  //darkModeInLocalStore 
+  useEffect(() => {
+    const savedTheme = localStorage.getItem('themesDarkMode'); // Get theme saved in local storage
+    if (savedTheme) {
+      setDarkMode(savedTheme);
+    }
+  }, []);
   return (
     <div className={`${darkModeIsOn} App`}>
       <NavBar sunImg={sunImg} changeDarkMode={changeDarkMode} sun={sun} letterOn={letterOn} letterX={letterX} setMenuIsOn={setMenuIsOn} handleClickMenu={handleClickMenu} moon={moon} menuHamburguer={menuHamburguer} />

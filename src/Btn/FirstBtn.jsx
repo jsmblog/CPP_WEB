@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 
-const FirstBtn = ({letterX , OneExp , twoExp , three , four ,five}) => {
+const FirstBtn = ({letterX , OneExp , twoExp , three , four ,five ,touch}) => {
     
   const [btnOne, setBtnOne] = useState(false)
 
@@ -11,13 +11,17 @@ const FirstBtn = ({letterX , OneExp , twoExp , three , four ,five}) => {
   }
   const btnOneVisibility = (btnOne) ? "btnOneV scale-in-hor-center" : ""
   
-  
   return (
     <>
     <div className="BtnVarAndDT blink-1">
-      <button onClick={handleClickBtnOne}>
+     <div>
+     <button onClick={handleClickBtnOne}>
         VARIABLES AND DATA TYPES
+        <div className="btnTouch">
+      <img width={50} src={touch} alt="touch" />
+    </div>
       </button>
+     </div>
     </div>
       <div className={`${btnOneVisibility} container container_position`}>
         <div>
@@ -48,6 +52,7 @@ const FirstBtn = ({letterX , OneExp , twoExp , three , four ,five}) => {
         </div>
       </div>
     </div>
+   
     </>
   )
 }

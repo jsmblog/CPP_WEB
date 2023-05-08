@@ -34,6 +34,7 @@ import twentyOne from './Img/21.png'
 import twentyTwo from './Img/22.png'
 import twentyT from './Img/23.png'
 import twentyFour from './Img/24.png'
+import touch from './Img/touch.png'
 
 //components imports
 import MenuIsOn from './Components/MenuIsOn'
@@ -97,7 +98,7 @@ function App() {
       <Principal changeImgCpp={changeImgCpp} cppLogo={cppLogo} fontMarine={fontMarine} />
       <MenuIsOn  menuOn={menuOn} />
       <Sections creator={creator} />
-      <DataCpp twenty={twenty} twentyOne={twentyOne} twentyT={twentyT} twentyFour={twentyFour} twentyTwo={twentyTwo} sixteen={sixteen} seventeen={seventeen} eigthteen={eigthteen} nineteen={nineteen} fourteen={fourteen} fithteen={fithteen} thirteen={thirteen} twelve={twelve} eleven={eleven} ten={ten} nine={nine} six={six} seven={seven} eigth={eigth} five={five} four={four} three={three} twoExp={twoExp} OneExp={OneExp} letterX={letterX} />
+      <DataCpp touch={touch} twenty={twenty} twentyOne={twentyOne} twentyT={twentyT} twentyFour={twentyFour} twentyTwo={twentyTwo} sixteen={sixteen} seventeen={seventeen} eigthteen={eigthteen} nineteen={nineteen} fourteen={fourteen} fithteen={fithteen} thirteen={thirteen} twelve={twelve} eleven={eleven} ten={ten} nine={nine} six={six} seven={seven} eigth={eigth} five={five} four={four} three={three} twoExp={twoExp} OneExp={OneExp} letterX={letterX} />
     </div>
   )
 }

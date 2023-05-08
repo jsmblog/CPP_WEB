@@ -51,7 +51,12 @@
   padding: 2rem 0;
   width: 100%;
 }
-/*style modal*/
+.btnTouch img {
+  top: -2.47rem;
+  right: 8rem;
+  position: relative;
+}
+
 
 /*animation*/
 .scale-in-hor-center {

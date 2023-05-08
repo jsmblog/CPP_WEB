@@ -39,7 +39,11 @@ const SixthBtn = ({letterX , twenty ,twentyOne ,twentyTwo , twentyT , twentyFour
               <li><span>Queues: Queues are a FIFO (First-In, First-Out) data structure, where the first element inserted is the first to be removed. The basic operations on a queue are enqueue (insert an element) and dequeue (remove an element). For example:</span></li>
               <img src={twentyT} alt="example-three" />
               <li><span>Trees: Trees are hierarchical structures made up of nodes, where each node can have one or more child nodes. Trees are used to represent hierarchical relationships, such as directory trees, or data structures such as binary search trees. For example:</span></li>
-              <img src={twentyFour} alt="example-three" />
+              <img src={twentyFour
+              
+              
+              
+              } alt="example-three" />
             </ol>
             <p>
 

@@ -29,7 +29,7 @@ return (
             <FiveBtn sixteen={sixteen} seventeen={seventeen} eigthteen={eigthteen} nineteen={nineteen} letterX={letterX}/>
         </div>
         <div>
-            <SixthBtn twenty={twenty} twentyOne={twentyOne} twentyT={twentyT} twentyFour={twentyFour} letterX={letterX}/>
+            <SixthBtn twentyTwo={twentyTwo} twenty={twenty} twentyOne={twentyOne} twentyT={twentyT} twentyFour={twentyFour} letterX={letterX}/>
         </div>
     </div>
     <footer>

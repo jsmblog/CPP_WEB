@@ -25,6 +25,16 @@ import twelve from './Img/12.png'
 import thirteen from './Img/13.png'
 import fourteen from './Img/14.png'
 import fithteen from './Img/15.png'
+import sixteen from './Img/16.png'
+import seventeen from './Img/17.png'
+import eigthteen from './Img/18.png'
+import nineteen from './Img/19.png'
+import twenty from './Img/2.png'
+import twentyOne from './Img/21.png'
+import twentyTwo from './Img/22.png'
+import twentyT from './Img/23.png'
+import twentyFour from './Img/24.png'
+
 //components imports
 import MenuIsOn from './Components/MenuIsOn'
 import NavBar from './Components/NavBar'
@@ -87,7 +97,7 @@ function App() {
       <Principal changeImgCpp={changeImgCpp} cppLogo={cppLogo} fontMarine={fontMarine} />
       <MenuIsOn  menuOn={menuOn} />
       <Sections creator={creator} />
-      <DataCpp fourteen={fourteen} fithteen={fithteen} thirteen={thirteen} twelve={twelve} eleven={eleven} ten={ten} nine={nine} six={six} seven={seven} eigth={eigth} five={five} four={four} three={three} twoExp={twoExp} OneExp={OneExp} letterX={letterX} />
+      <DataCpp twenty={twenty} twentyOne={twentyOne} twentyT={twentyT} twentyFour={twentyFour} sixteen={sixteen} seventeen={seventeen} eigthteen={eigthteen} nineteen={nineteen} fourteen={fourteen} fithteen={fithteen} thirteen={thirteen} twelve={twelve} eleven={eleven} ten={ten} nine={nine} six={six} seven={seven} eigth={eigth} five={five} four={four} three={three} twoExp={twoExp} OneExp={OneExp} letterX={letterX} />
     </div>
   )
 }

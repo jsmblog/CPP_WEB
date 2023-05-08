@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-const SixthBtn = ({letterX , six , seven , eigth}) => {
+const SixthBtn = ({letterX , twenty ,twentyOne ,twentyTwo , twentyT , twentyFour}) => {
   const [btnOne, setBtnOne] = useState(false)
 
   const handleClickBtnOne = () => {
@@ -22,31 +22,28 @@ const SixthBtn = ({letterX , six , seven , eigth}) => {
       <div className="content">
         <div className="contFirstBtnVarAndDt">
             <p>
-            Logical operators are tools used in programming and mathematics to combine, compare, and evaluate conditions. These operators allow you to perform logical operations on Boolean values true o false and help you make decisions in your code.
+            Data structures are organized ways of storing and manipulating data in a computer program. These structures allow us to store and access data efficiently, facilitating the performance of various operations and optimizing the use of resources.
             <br />
             <br />
-            There are three main logical operators:
+            There are different types of data structures, each with its specific characteristics and applications. Some of the most common data structures are:
             <br />
             <br />
             </p>
             <ol className="olImg">
-              <li><span>AND operator (&&): This operator returns true if both operands are true, and false otherwise. For example:</span></li>
-              <img src={six} alt="example-one" />
-              <li><span>OR operator (||): This operator returns true if at least one of the operands is true, and false if both operands are false. For example:</span></li>
-              <img src={seven} alt="example-two" />
-              <li><span>NOT operator (!): This operator inverts the truth value of an operand. If the operand is true, the result is false, and if the operand is false, the result is true. For example:</span></li>
-              <img src={eigth} alt="example-three" />
+              <li><span>Arrays: Arrays are a contiguous collection of elements of the same type. They allow items to be accessed using an index, which makes data retrieval easier, but they are fixed in size and not very flexible in terms of their ability to grow dynamically. For example:</span></li>
+              <img src={twenty} alt="example-one" />
+              <li><span>Linked Lists: Linked lists are a sequence of nodes, where each node contains a value and a reference to the next node. This allows for dynamic memory allocation and flexible list growth. For example:</span></li>
+              <img src={twentyOne} alt="example-two" />
+              <li><span>Stacks: Stacks are a LIFO (Last-In, First-Out) data structure, where the last element inserted is the first to be removed. The basic operations on a stack are push (insert an element) and pop (remove an element). For example:</span></li>
+              <img src={twentyTwo} alt="example-three" />
+              <li><span>Queues: Queues are a FIFO (First-In, First-Out) data structure, where the first element inserted is the first to be removed. The basic operations on a queue are enqueue (insert an element) and dequeue (remove an element). For example:</span></li>
+              <img src={twentyT} alt="example-three" />
+              <li><span>Trees: Trees are hierarchical structures made up of nodes, where each node can have one or more child nodes. Trees are used to represent hierarchical relationships, such as directory trees, or data structures such as binary search trees. For example:</span></li>
+              <img src={twentyFour} alt="example-three" />
             </ol>
-            <p>In addition to the logical operators, there are also the basic mathematical operators, which are used to perform numerical calculations:
+            <p>
 
-Addition operator (+): It is used to add two values. For example: int result = 3 + 5; // The result is 8
-Subtraction operator (-): It is used to subtract one value from another. For example: int result = 8 - 3; // The result is 5
-Multiplication operator (*): It is used to multiply two values. For example: int result = 2 * 4; // The result is 8
-Division operator (/): Used to divide one value by another. For example: int result = 10 / 2; // The result is 5
-Modulo operator (%): Returns the remainder of the division between two values. For example: int result = 10% 3; // The result is 1
-These mathematical operators are used to perform numerical calculations in programming.
-
-In short, logical operators are tools used to combine and evaluate Boolean conditions, while mathematical operators are used to perform numerical calculations. Understanding and using these operators is essential for making decisions and performing calculations in programming.</p>
+            </p>
         </div>
       </div>
     </div>

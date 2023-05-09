@@ -67,5 +67,27 @@
 .themesDarkMode .BtnVarAndDT button {
     transition: 2.5s ease;
     color: var(--co-white-gray);
-    background-color: var(--co-dm-blue)
+    background-color: var(--co-dm-blue);
+    border: 3px solid var(--co-red-second );
+    box-shadow: 0 0 20px 1px var(--co-red-second) ;
+}
+.themesDarkMode .BtnVarAndDT_change-co button {
+    border: 3px solid var(--co-orange);
+    box-shadow: 0 0 20px 1px var(--co-orange) ;
+}
+.themesDarkMode .BtnVarAndDThirth button {
+    border: 3px solid var(--co-violet-dm);
+    box-shadow: 0 0 20px 1px var(--co-violet-dm) ;
+}
+.themesDarkMode .BtnVarAndDtFourth button {
+    border: 3px solid var(--co-blue-dm);
+    box-shadow: 0 0 20px 1px var(--co-blue-dm) ;
+}
+.themesDarkMode .BtnVarAndDTFiveth button {
+    border: 3px solid var(--co-sky-dm);
+    box-shadow: 0 0 20px 1px var(--co-sky-dm) ;
+}
+.themesDarkMode .BtnVarAndDTSixth button {
+    border: 3px solid var(--co-green-dm);
+    box-shadow: 0 0 20px 1px var(--co-green-dm) ;
 }

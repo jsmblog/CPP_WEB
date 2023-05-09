@@ -22,10 +22,14 @@
   --co-gray-light : rgba(128, 128, 128, 0.349);
   --co-black :#0F3460;
   --co-red-primary:#FD5D5D ;
-  --co-red-secondary : #950101;
   --co-orange :#FF5733;
   --co-violet-primary:#4C0070;
   --co-blue-btn :#150485;
   --co-swy :#00A8CC;
   --co-green :#007880;
+  --co-red-second : #FC2947;
+  --co-violet-dm :#A31ACB;
+  --co-blue-dm :#2192FF;
+  --co-sky-dm :#72FFFF;
+  --co-green-dm :#49FF00;
 }

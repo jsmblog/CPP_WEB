@@ -28,7 +28,7 @@ const MenuIsOn = ({menuOn , ebook ,youtubeImg ,codeBlockImg}) => {
 return (
     <nav className={`${menuOn} NavMenuIsOn NavMenuIsOn_position`}>
         <div className="DownloadsEbook">
-        {downloaded && <h4 className="DownloadExited">¡ PDF downloaded <span className="spanSuccessfully">successfully</span>!</h4>}
+        {downloaded && <h6 className="DownloadExited">¡ PDF downloaded <span className="spanSuccessfully">successfully</span>!</h6>}
         <div >
             <h3>Downloads</h3>
         </div>

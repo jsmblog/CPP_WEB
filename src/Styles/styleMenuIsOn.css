@@ -17,10 +17,11 @@
     position: fixed;
 }
 .DownloadsEbook {
+    height: 90%;
     display: flex;
     width: 100%;
     padding: 1rem 0;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: column;
     align-items: center;
     gap: .7rem;

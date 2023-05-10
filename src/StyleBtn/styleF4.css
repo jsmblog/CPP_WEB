@@ -1,7 +1,7 @@
 .BtnVarAndDtFourth button {
-    color: var(--co-blue-btn);
-    border: 3px solid var(--co-blue-btn);
-    box-shadow: 0 0 20px 1px var(--co-blue-btn) ;
+    color: var(--co-dm-blue);
+    border: 3px solid var(--co-dm-blue);
+    box-shadow: 0 0 20px 1px var(--co-dm-blue) ;
 }
 
 .slide-in-blurred-right {

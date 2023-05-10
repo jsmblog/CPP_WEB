@@ -35,6 +35,9 @@ import twentyTwo from './Img/22.png'
 import twentyT from './Img/23.png'
 import twentyFour from './Img/24.png'
 import touch from './Img/touch.png'
+import ebook from './Img/ebook c++.png'
+import youtubeImg from './Img/youtube.png'
+import codeBlockImg from './Img/CodeBlock.png'
 
 //components imports
 import MenuIsOn from './Components/MenuIsOn'
@@ -44,6 +47,7 @@ import Sections from './Components/Sections'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import DataCpp from './Components/DataCpp'
+
 
 function App() {
   //function active animation Aos
@@ -96,7 +100,7 @@ function App() {
     <div className={`${darkModeIsOn} App`}>
       <NavBar sunImg={sunImg} changeDarkMode={changeDarkMode} sun={sun} letterOn={letterOn} letterX={letterX} setMenuIsOn={setMenuIsOn} handleClickMenu={handleClickMenu} moon={moon} menuHamburguer={menuHamburguer} />
       <Principal changeImgCpp={changeImgCpp} cppLogo={cppLogo} fontMarine={fontMarine} />
-      <MenuIsOn  menuOn={menuOn} />
+      <MenuIsOn codeBlockImg={codeBlockImg} youtubeImg={youtubeImg} ebook={ebook}  menuOn={menuOn} />
       <Sections creator={creator} />
       <DataCpp touch={touch} twenty={twenty} twentyOne={twentyOne} twentyT={twentyT} twentyFour={twentyFour} twentyTwo={twentyTwo} sixteen={sixteen} seventeen={seventeen} eigthteen={eigthteen} nineteen={nineteen} fourteen={fourteen} fithteen={fithteen} thirteen={thirteen} twelve={twelve} eleven={eleven} ten={ten} nine={nine} six={six} seven={seven} eigth={eigth} five={five} four={four} three={three} twoExp={twoExp} OneExp={OneExp} letterX={letterX} />
     </div>
